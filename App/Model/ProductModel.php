@@ -6,7 +6,7 @@ namespace App\Model;
 use Framework\Model;
 use \PDO;
 
-class UserModel extends Model{
+class ProductModel extends Model{
 
     public function getProduct(){
         $db = $this->getDb();

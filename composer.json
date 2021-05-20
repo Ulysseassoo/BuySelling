@@ -1,0 +1,22 @@
+{
+    "name": "wilfrid/buy-selling",
+    "authors": [
+        {
+            "name": "Nasake46",
+            "email": "wilfrid.salles-otta@supinternet.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\":"App/",
+            "Framework\\":"Framework/"
+        }
+    },
+    "require": {
+        "bramus/router": "^1.5",
+        "twig/twig": "^3.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.2"
+    }
+}

@@ -1,0 +1,259 @@
+body {
+    /*Taille*/
+    width: 100%;
+
+    /*Style*/
+    font-family: 'Mukta', sans-serif;
+}
+/*-------------------------------------CSS Header---------------------------------*/
+header {
+    /*Format*/
+    display: flex;
+    justify-content: center;
+
+    /*Taille*/
+    width: 100%;
+
+    /*Style*/
+    background-color: rgb(255, 255, 255);
+}
+
+.header-content {
+    /*Format*/
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /*Taille*/
+    width: 85%;
+
+    /*Style*/
+    background-color: rgb(255, 255, 255);
+}
+
+.logo-section {
+    /*Format*/
+    display: inline-flex;
+    width: 20%;
+    align-items: center;
+}
+
+.logo {
+    /*Format*/
+    width: 50%;
+}
+
+.nav-header {
+    /*Format*/
+    display: inline-flex;
+    justify-content: space-between;
+    width: 20%;
+
+    /*Style*/
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.nav-header li {
+    /*Taille*/
+    margin: 0 5px;
+}
+
+/*-------------------------------------Fin CSS Header---------------------------------*/
+
+/*-------------------------------------CSS Content---------------------------------*/
+
+.section-one {
+    /*Format*/
+    display: flex;
+    justify-content: center;
+
+    /*Taille*/
+    width: 100%;
+    height: 700px;
+
+    /*Style*/
+    background-image: linear-gradient( rgba(0, 0, 0, 0.301), rgba(0, 0, 0, 0.301) ), url(../Img/Photo\ accueil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.landing-search {
+    /*Format*/
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: column;
+
+    /*Taille*/
+    width: 85%;
+    padding: 25px 0;
+    margin: auto 0;
+}
+
+.landing-search h2 {
+    /*Taille*/
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+
+    /*Style*/
+    color: white;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.landing-search h3 {
+    /*Taille*/
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+
+    /*Style*/
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.search-bar {
+    /*Taille*/
+    width: 100%;
+    height: fit-content;
+    padding: 5% 0 0 0;
+
+    
+    
+    
+}
+
+.search-bar * {
+    /*Format*/
+    border-radius: 5px;
+
+    /*Taille*/
+    width: 14%;
+    margin: 0 20px;
+    padding: 18px 10px;
+
+    /*Style*/
+    outline: none;
+    border: solid 1px rgba(179, 179, 179, 0.336);
+    color: rgba(128, 128, 128, 0.322);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.section-two {
+    /*Format*/
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    /*Taille*/
+    width: 100%;
+}
+
+.section-two h1 {
+    /*Format*/
+    text-align: center;
+
+    /*Taille*/
+    width: 85%;
+    margin: 20px 0 0 0;
+
+    /*Style*/
+    font-size: 70px;
+}
+.product {
+    /*Format*/
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    /*Taille*/
+    width: 85%;
+}
+
+.product-card {
+    /*Format*/
+    border-radius: 5px;
+    position: relative;
+
+    /*Taille*/
+    width: 300px;
+    height: 180px;
+    margin: 20px;
+
+    /*Style*/
+    background-color: rgba(70, 70, 70, 0.479);
+}
+
+.product-card button {
+    /*Format*/
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    border-radius: 5px;
+
+    /*Taille*/
+    padding: 10px;
+    
+    /*Style*/
+    border: none;
+    background-color: #000000;
+    color: white;
+}
+/*-------------------------------------Fin CSS Content---------------------------------*/
+
+/*-------------------------------------CSS Footer---------------------------------*/
+
+footer {
+    /*Format*/
+    display: flex;
+    justify-content: center;
+
+    /*Taille*/
+    width: 100%;
+
+    /*Style*/
+    background-color: rgb(129, 129, 129);
+}
+
+.footer-content {
+    /*Format*/
+    display: inline-flex;
+    justify-content: space-between;
+
+    /*Taille*/
+    width: 85%;
+    padding: 20px 0;
+
+    /*Style*/
+    
+}
+
+.footer-identity {
+    /*Taille*/
+    width: 30%;
+    padding: 10px 0;
+}
+
+.site-map {
+    /*Format*/
+    display: inline-flex;
+    justify-content: space-between;
+
+    /*Taille*/
+    width: 30%;
+    padding: 10px 0;
+}
+
+.reassuring-info {
+    /*Format*/
+    display: flex;
+    /*Taille*/
+    width: 30%;
+    padding: 10px 0;
+}
+/*-------------------------------------Fin CSS Footer---------------------------------*/

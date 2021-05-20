@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '64335ff92f5cc1d3a90067e1179a3f84ad1a1ba4',
+    'reference' => '38445ccdbdcb3bed254f165b7c54cb92a0927308',
     'name' => 'wilfrid/buy-selling',
   ),
   'versions' => 
@@ -96,7 +96,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '64335ff92f5cc1d3a90067e1179a3f84ad1a1ba4',
+      'reference' => '38445ccdbdcb3bed254f165b7c54cb92a0927308',
     ),
   ),
 );

@@ -33,9 +33,9 @@ class ProductController extends Controller {
         }
     }
 
-    public function User():void{
+    public function User($id):void{
         $userModel = new UserModel();
-        $user = $userModel->getUser();
+        $user = $userModel->fetchUser($id);
         $this->renderTemplate('search.html.twig');
     }
 }

@@ -1,0 +1,38 @@
+{% extends "homepage.html.twig" %}
+{% block body %}
+    <body>
+        <header>
+            <div class="header-content">
+                <div class="logo-section">
+                    <img class="logo" src="/Assets/Img/Logo.png" alt="Logo de notre Site E-commerce">
+                </div>
+                <ul class="nav-header">
+                    <li>Accueil</li>
+                    <li>Boutique</li>
+                    <li>Contact</li>
+                </ul>
+                <div class="user-section">
+                    <img class="search"src="" alt="icone de recherche">
+                    <img class="wishlist" src="" alt="icone de wish list">
+                    <img class="panier" src="" alt="icone du panier utilisateur">
+                </div>
+            </div>
+        </header>
+        <div class="section-two">
+            <h1>{{product.name}}</h1>
+            <div class="product">
+                <div class="product-card">
+                    <p>Prix : {{product.price}}</p>
+                    <p>Catégorie : {{product.category}}</p>
+                    <p>Localisation : {{product.location}}</p>
+                    <p>Nombre de ventes : {{product.ventes}}</p>
+                </div>
+            </div>
+            <a href="#" class="btn-card">Ajouter au panier et l'acheter</a>
+            <form method="post" accept-charset="UTF-8">
+                <input type="hidden" name="action" value={{product.idproduct}}>
+                <button type="submit" href="#" class="btn-card">Ajouter au favoris</button>
+            </form>
+        </div>
+    </body>
+{% endblock %}

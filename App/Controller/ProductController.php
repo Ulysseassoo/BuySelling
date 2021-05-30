@@ -4,6 +4,7 @@ namespace App\Controller;
 
 use Framework\Controller;
 use App\Model\ProductModel;
+use App\Model\UserModel;
 
 class ProductController extends Controller {
 
@@ -32,4 +33,9 @@ class ProductController extends Controller {
         }
     }
 
+    public function User():void{
+        $userModel = new UserModel();
+        $user = $userModel->getUser();
+        $this->renderTemplate('search.html.twig');
+    }
 }
